@@ -1,0 +1,23 @@
+    /* Locally sourced .ttf files */
+@font-face
+{
+    src: url(font-files/Geo-Regular.ttf);
+    font-family: Geo-Regular;
+}
+@font-face
+{
+    src: url(font-files/Handlee-Regular.ttf);
+    font-family: Handlee-Regular;
+}
+
+h1
+{
+    font-family: Geo-Regular, verdana, arial;
+}
+p
+{
+    font-family: Handlee-Regular, "lucida console", "courier new";
+    font-size: 1em;
+    font-weight: bold;
+    /* font-style: italic; */
+}
