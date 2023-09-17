@@ -1,0 +1,47 @@
+body
+{
+    margin: 0;
+}
+
+.box
+{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+
+    transform: translateX(100px) rotateZ(45deg) scale(0.5);
+    /* Also applies to IMAGES! */
+}
+
+#box1
+{
+    background-color: hsl(120, 100%, 70%);
+
+    /* transform: translateX(50%);
+    transform: translateY(100%);
+    transform: translate(-50px, -50px); */
+
+    /* transform: rotateX(180deg);
+    transform: rotateY(180deg);
+    transform: rotateZ(180deg); */
+
+    /* transform: scaleX(0.25);
+    transform: scaleY(0.25);
+    transform: scale(3, 3); */
+
+    /* transform: skewX(180deg);
+    transform: skewY(180deg);
+    transform: skew(180deg, 30deg); */
+
+    /* transform: translateX(100%) rotateZ(90deg) scale(0.5); */
+}
+#box2
+{
+    background-color: hsl(0, 100%, 70%);
+}
+#box3
+{
+    background-color: hsl(217, 100%, 70%);
+}
